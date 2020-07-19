@@ -1,4 +1,7 @@
+package p2;
 import java.awt.event.*;
+
+
 import java.awt.*;
 
 public class book_issued extends Frame {
@@ -18,11 +21,14 @@ public class book_issued extends Frame {
                 dispose();
             }
         });
+        
         setTitle("Message");
         setSize(300, 200);
         setLayout(null);
         setVisible(true);
     }
+
+    
 
     public static void main(String[] args) {
         new book_issued();
