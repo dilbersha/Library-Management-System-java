@@ -4,14 +4,14 @@ import java.awt.event.*;
 
 import java.awt.*;
 
-public class book_issued extends Frame {
+public class bookAdded extends Frame {
     Label heading;
     Button ok;
 
-    book_issued() {
+    bookAdded() {
         Label heading = new Label();
         heading.setBounds(110, 60, 100, 30);
-        heading.setText("Book issued");
+        heading.setText("Book Added");
         Button ok = new Button("OK");
         ok.setBounds(130, 100, 50, 30);
         add(heading);
@@ -37,6 +37,6 @@ public class book_issued extends Frame {
     
 
     public static void main(String[] args) {
-        new book_issued();
+        new bookAdded();
     }
 }
