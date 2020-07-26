@@ -1,5 +1,4 @@
 package p2;
-
 import java.awt.event.*;
 import java.awt.*;
 import java.sql.*;
@@ -68,6 +67,7 @@ public class book_detail extends Frame{
                         int result = stmt.executeUpdate(sql);
                         if (result != -1) {
                             System.out.println("Inserted" + result + "Record(s) successfully");
+                            new bookAdded();
                             
                         } else {
                             System.out.println("Unable to insert record. Please check your SQL syntax");
