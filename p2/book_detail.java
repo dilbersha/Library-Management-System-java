@@ -60,14 +60,14 @@ public class book_detail extends Frame{
                 String sql = "INSERT INTO books_available (bname,category,author) VALUES ('" + book_name + "','" + book_category + "','" + book_author + "')";
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
-                    String url = "jdbc:mysql://localhost:3306/library";
-                    Connection con = DriverManager.getConnection(url, "root", "root");
+                    // String url = "jdbc:mysql://localhost:3306/library";
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library", "root", "root");
                     if (con != null) {
                         Statement stmt = con.createStatement();
                         int result = stmt.executeUpdate(sql);
                         if (result != -1) {
                             System.out.println("Inserted" + result + "Record(s) successfully");
-                            new bookAdded();
+                            // new bookAdded();
                             
                         } else {
                             System.out.println("Unable to insert record. Please check your SQL syntax");
