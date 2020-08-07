@@ -7,7 +7,7 @@ public class book_issued {
 
     book_issued() {
         f = new JFrame();
-        JOptionPane.showMessageDialog(f, "Book Issued ", "Message", JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(f, "Book Issued ", "Message", JOptionPane.DEFAULT_OPTION);
     }
 
     public static void main(String[] args) {
