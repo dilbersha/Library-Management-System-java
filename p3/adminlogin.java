@@ -32,19 +32,16 @@ public class adminlogin {
                 _a_username = user_f.getText();
                 _a_password = new String(pass_f.getPassword());
 
-                String sql = "INSERT INTO staff_list (name,password) VALUES ('" + _a_username + "','" + _a_password
-                        + "')";
+                String sql = "SELECT password FROM staff_list where name='" + _a_username + "'";
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
                     String url = "jdbc:mysql://localhost:3306/library";
                     Connection con = DriverManager.getConnection(url, "root", "root");
                     if (con != null) {
                         Statement stmt = con.createStatement();
-                        int result = stmt.executeUpdate(sql);
-                        if (result != -1) {
-                            System.out.println("Inserted" + result + "Record(s) successfully");
-                        } else {
-                            System.out.println("Unable to insert record. Please check your SQL syntax");
+                        ResultSet password = stmt.executeQuery(sql);
+                        if (password.getString(1) == _a_password) {
+                            new loggedin();
                         }
                         stmt.close();
                         con.close();
