@@ -86,8 +86,7 @@ public class adduser extends Frame {
                 String sql = "INSERT INTO student_list (name,class,branch,password,sex,PHONE) VALUES ('" + _username + "','" + _class + "','" + _branch + "','" + _password + "','" + _sex + "','" + _phone + "')";
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
-                    String url = "jdbc:mysql://localhost:3306/library";
-                    Connection con = DriverManager.getConnection(url, "root", "root");
+				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","Anandu1998@mysql");
                     if (con != null) {
                         Statement stmt = con.createStatement();
                         int result = stmt.executeUpdate(sql);

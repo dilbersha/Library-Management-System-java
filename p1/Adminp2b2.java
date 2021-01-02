@@ -50,8 +50,8 @@ JTextField tf1,tf2,tf3,tf4;
 	{
 try{
 			
-Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","anandu1998@mysql");
+Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","Anandu1998@mysql");
 			Statement stmt = con.createStatement();
 			
 			

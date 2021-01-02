@@ -21,7 +21,7 @@ public class Table2
 			    try
 			       {        String  q4="Select * from library.login";
 					Class.forName("com.mysql.jdbc.Driver");
-					Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","anandu1998@mysql");
+					Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","Anandu1998@mysql");
 					Statement stmt=con.createStatement();
 					ResultSet rs=stmt.executeQuery(q4);
                                         boolean t1=rs.next();

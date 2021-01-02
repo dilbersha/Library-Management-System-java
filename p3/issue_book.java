@@ -50,9 +50,8 @@ public class issue_book {
                 String sql = "INSERT INTO books_issued (uid,bid,issued_date,period) VALUES ('" + _uid + "','" + _bid
                         + "','" + _date + "','" + _period + "')";
                 try {
-                    Class.forName("com.mysql.jdbc.Driver");
-                    String url = "jdbc:mysql://localhost:3306/library";
-                    Connection con = DriverManager.getConnection(url, "root", "root");
+                   Class.forName("com.mysql.jdbc.Driver");
+				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","Anandu1998@mysql");
                     if (con != null) {
                         Statement stmt = con.createStatement();
                         int result = stmt.executeUpdate(sql);

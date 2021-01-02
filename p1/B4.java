@@ -36,14 +36,19 @@ JFrame f=new JFrame();
 
 			
 		}
-                      
+    public String toString(char[] a) 
+    { 
+        String string = String.valueOf(a); 
+  
+        return string; 
+    } 
 	public void actionPerformed(ActionEvent e)
 	{
 		try{
                     String s1=tf1.getText();
-                    String s2=value.getText();
+                    String s2=toString(value.getPassword());
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","anandu1998@mysql");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","Anandu1998@mysql");
 			Statement stmt=con.createStatement();
 String q0="UPDATE `library`.`login` SET `name` = '"+s1+"', `password` = '"+s2+"' WHERE (`key` = '1');";
 
@@ -56,7 +61,7 @@ String q0="UPDATE `library`.`login` SET `name` = '"+s1+"', `password` = '"+s2+"'
 			{
 				
 
-				if((rs.getString(5).equals(value.getText()))&&(rs.getString(2).equals(tf1.getText())))
+				if((rs.getString(5).equals(toString(value.getPassword())))&&(rs.getString(2).equals(tf1.getText())))
 				{
 				new B5();
 				

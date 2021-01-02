@@ -35,7 +35,7 @@ JTextField tf1,tf2;
 try{
 			
 Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","anandu1998@mysql");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","Anandu1998@mysql");
 			Statement stmt = con.createStatement();
 			
 			
