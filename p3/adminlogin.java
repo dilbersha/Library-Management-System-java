@@ -34,14 +34,16 @@ public class adminlogin {
 
                 String sql = "SELECT password FROM staff_list where name='" + _a_username + "'";
                 try {
-                    Class.forName("com.mysql.cj.jdbc.Driver");
-                    String url = "jdbc:mysql://localhost:3306/library";
-                    Connection con = DriverManager.getConnection(url, "root", "root");
+                  Class.forName("com.mysql.jdbc.Driver");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","Anandu1998@mysql");
                     if (con != null) {
                         Statement stmt = con.createStatement();
                         ResultSet password = stmt.executeQuery(sql);
-                        if (password.getString(1) == _a_password) {
-                            new loggedin();
+			
+			password.next();
+                        if (password.getString(1).equals(_a_password)) {
+                             System.out.println("Logged in");
+                          //  new loggedin();
                         }
                         stmt.close();
                         con.close();

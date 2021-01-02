@@ -48,8 +48,7 @@ public class book_detail {
                         + book_category + "','" + book_author + "')";
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
-                    // String url = "jdbc:mysql://localhost:3306/library";
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library", "root", "root");
+				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","Anandu1998@mysql");
                     if (con != null) {
                         Statement stmt = con.createStatement();
                         int result = stmt.executeUpdate(sql);
