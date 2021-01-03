@@ -1,10 +1,10 @@
-package libpro;
+package librarian;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.sql.*;
 public class librarian {
-    librarian()
+    public librarian()
     {
         JFrame lib=new JFrame("Librarian Menu");
         JButton b1=new JButton("View Books");
@@ -43,19 +43,19 @@ public class librarian {
         b3.addActionListener((new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+		new p1.Adminp1t2();
             }
         }));
         b4.addActionListener((new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+		new p2.issue_book();
             }
         }));
         b5.addActionListener((new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+new addstu();
             }
         }));
         b6.addActionListener((new ActionListener() {

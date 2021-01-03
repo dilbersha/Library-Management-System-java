@@ -1,4 +1,6 @@
-package libpro;
+package Final;
+import librarian.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -21,25 +23,30 @@ public class librarianlogin {
         log.setSize(300,200);
         log.setLayout(null);
         log.setVisible(true);
+        log.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         b.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
                     String s1=t1.getText();
                     String s2= String.valueOf(p1.getPassword());
-                    //Class.forName("com.mysql.jdbc.Driver");
-                    Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","Anandu1998@mysql");
+				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","devmodeon");
                     Statement stmt=con.createStatement();
                     String q1="Select * from staff_list where password='"+s2+"'";
                     ResultSet rs=stmt.executeQuery(q1);
                     if (rs.next())
-                    {
+                    
+                    { 
                         if((rs.getString(5).equals(s2))&&(rs.getString(2).equals(s1)))
                         {
 
                             new librarian();
 
                         }
+                        else
+                    {
+                        new invalid();
+                    }
 
                     }
                     else
