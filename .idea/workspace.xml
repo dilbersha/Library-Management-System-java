@@ -26,47 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63861e0c-e171-40ca-bf64-8492e465b3f3" name="Default Changelist" comment="changes prior to anandu branch">
-      <change beforePath="$PROJECT_DIR$/invalid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/adduser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/book_added.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/book_detail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/book_issued.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/error.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/invalid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/issue_book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/librarian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/librarianlogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/user_added.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/user_not_added.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/Adminp1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/Adminp1t1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/Adminp1t2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/Adminp2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/Adminp2b2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/Adminp2b3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/Adminp2t1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/Adminstudenttable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/adminlogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/error.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/user_not_added.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2/adduser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2/adminPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2/adminlogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2/bookAdded.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2/book_detail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2/book_issued.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2/issue_book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2/user_added.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p3/book_not_added.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p3/loggedin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/B4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/B5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/Table2.java" beforeDir="false" />
-    </list>
+    <list default="true" id="5b6090ed-24f8-4b3d-8bb2-2d122e69329d" name="Default Changelist" comment="changes prior to anandu branch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +146,6 @@
         <item itemvalue="Application.Admin" />
         <item itemvalue="Application.adminlogin" />
         <item itemvalue="Application.JDatePickerDemo" />
-        <item itemvalue="Application.librarianlogin (1)" />
         <item itemvalue="Application.librarianlogin" />
       </list>
     </recent_temporary>
@@ -292,6 +251,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose/0.0.1920.1040@0.0.1920.1040" timestamp="1609711911561" />
+    <state x="759" y="399" key="Github.ShareDialog" timestamp="1609713323443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="399" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609713323443" />
     <state width="1402" height="254" key="GridCell.Tab.0.bottom" timestamp="1609712599837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -312,10 +275,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="880" y="188" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609708291205" />
-    <state x="417" y="263" key="Vcs.Push.Dialog.v2" timestamp="1609711904590">
+    <state x="417" y="263" key="Vcs.Push.Dialog.v2" timestamp="1609713352107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="417" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609711904590" />
+    <state x="417" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609713352107" />
     <state x="521" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609696090132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
