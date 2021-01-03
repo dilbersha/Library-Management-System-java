@@ -1,4 +1,4 @@
-package p3;
+package p1;
 
 import java.sql.*;
 import javax.swing.*;
@@ -43,7 +43,7 @@ public class adminlogin {
 			password.next();
                         if (password.getString(1).equals(_a_password)) {
                              System.out.println("Logged in");
-                          //  new loggedin();
+                            new Admin();
                         }
                         stmt.close();
                         con.close();

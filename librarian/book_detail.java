@@ -1,14 +1,13 @@
-package p3;
+package librarian;
 import java.sql.*;
 import javax.swing.*;
 import java.awt.event.*;
 
 public class book_detail {
     static String book_name, book_category, book_author;
-
-    public static void main(String[] args) {
-        
-        JFrame f = new JFrame("Add Book");
+    book_detail()
+    {
+     JFrame f = new JFrame("Add Book");
         final JLabel label = new JLabel();
         label.setBounds(20, 150, 200, 50);
         JLabel l1 = new JLabel("Book name:");
@@ -17,7 +16,7 @@ public class book_detail {
         l2.setBounds(20, 75, 80, 30);
         JLabel l3 = new JLabel("Author:");
         l3.setBounds(20, 130, 80, 30);
-        JButton b = new JButton("Login");
+        JButton b = new JButton("Add Book");
         b.setBounds(100, 195, 80, 30);
         final JTextField bname_f = new JTextField();
         bname_f.setBounds(100, 20, 100, 30);
@@ -72,5 +71,10 @@ public class book_detail {
 
             }
         });
+    }
+
+    public static void main(String[] args) {
+        
+       new book_detail();
     }
 }
