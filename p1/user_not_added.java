@@ -1,4 +1,4 @@
-package p3;
+package p1;
 
 import javax.swing.*;
 

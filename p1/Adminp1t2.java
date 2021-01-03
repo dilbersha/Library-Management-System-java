@@ -9,7 +9,7 @@ import java.sql.*;
         f=new JFrame();    
         
         f.setSize(600,600);
-        f.setTitle("Books Available");
+        f.setTitle("Books Issued");
 			String q2="Select * from library.books_issued";
                         String column[]={"iid","uid","bid","issue_date","return_date","period","fine"};
 			try

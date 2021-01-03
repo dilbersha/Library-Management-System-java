@@ -1,4 +1,4 @@
-package p1;
+package student;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

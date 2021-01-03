@@ -1,4 +1,4 @@
-package p3;
+package librarian;
 
 import java.sql.*;
 import javax.swing.*;
@@ -6,9 +6,8 @@ import java.awt.event.*;
 
 public class adduser {
     static String _username, _password, _class, _branch, _sex, _phone;
-
-    public static void main(String[] args) {
-        JFrame f = new JFrame("Add user");
+adduser()
+{ JFrame f = new JFrame("Add Student");
         final JLabel l1 = new JLabel("Name : ");
         l1.setBounds(20, 20, 200, 50);
         final JLabel l2 = new JLabel("Class : ");
@@ -33,7 +32,7 @@ public class adduser {
         sex_f.setBounds(100, 195, 150, 30);
         JTextField phone_f = new JTextField();
         phone_f.setBounds(100, 250, 150, 30);
-        JButton b = new JButton("Login");
+        JButton b = new JButton("Add");
         b.setBounds(100, 360, 150, 30);
         f.add(l1);
         f.add(l2);
@@ -92,6 +91,8 @@ public class adduser {
                     new error();
                 }
             }
-        });
+        });}
+    public static void main(String[] args) {
+       new adduser();
     }
 }

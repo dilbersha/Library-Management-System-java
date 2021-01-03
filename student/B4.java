@@ -1,4 +1,4 @@
-package p1;
+package student;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*; 
@@ -50,7 +50,8 @@ JFrame f=new JFrame();
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","Anandu1998@mysql");
 			Statement stmt=con.createStatement();
-String q0="UPDATE `library`.`login` SET `name` = '"+s1+"', `password` = '"+s2+"' WHERE (`key` = '1');";
+String q0="INSERT INTO login(name,password) VALUES ('"+s1+"','"+s2+"');";
+
 
 			int x=stmt.executeUpdate(q0);
 
