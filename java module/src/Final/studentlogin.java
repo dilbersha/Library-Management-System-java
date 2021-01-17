@@ -1,4 +1,5 @@
 package Final;
+import librarian.invalid;
 import student.B5;
 
 import java.awt.event.*;
@@ -72,12 +73,18 @@ String q0="INSERT INTO login(name,password) VALUES ('"+s1+"','"+s2+"');";
 
 
 
+				else
+				{
+					new invalid();
+				}
+
+			}
 			else
 			{
-			JOptionPane.showMessageDialog(f,"Invalid");
-			}
+				new invalid();
 			}
 			con.close();
+
 		}
 		catch(Exception ex)
 		{
@@ -86,7 +93,7 @@ String q0="INSERT INTO login(name,password) VALUES ('"+s1+"','"+s2+"');";
 
 			//System.exit(0);
 
-
+f.dispose();
 	}
 		public static void main(String[] args)
 		{
