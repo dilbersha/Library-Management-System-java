@@ -26,7 +26,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b6090ed-24f8-4b3d-8bb2-2d122e69329d" name="Default Changelist" comment="changes prior to anandu branch" />
+    <list default="true" id="5b6090ed-24f8-4b3d-8bb2-2d122e69329d" name="Default Changelist" comment="changes prior to anandu branch">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java module/src/Final/studentlogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/java module/src/Final/studentlogin.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +40,13 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="NO_VERIFY" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
@@ -71,7 +81,7 @@
       <recent name="C:\Users\dilbe\IdeaProjects\Library Management" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Admin">
+  <component name="RunManager" selected="Application.librarianlogin">
     <configuration name="Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p1.Admin" />
       <module name="java module" />
@@ -141,12 +151,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="studentlogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Final.studentlogin" />
+      <module name="java module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Final.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Admin" />
-        <item itemvalue="Application.adminlogin" />
-        <item itemvalue="Application.JDatePickerDemo" />
         <item itemvalue="Application.librarianlogin" />
+        <item itemvalue="Application.studentlogin" />
+        <item itemvalue="Application.adminlogin" />
+        <item itemvalue="Application.Admin" />
+        <item itemvalue="Application.JDatePickerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +180,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63861e0c-e171-40ca-bf64-8492e465b3f3" name="Default Changelist" comment="" />
+      <changelist id="5b6090ed-24f8-4b3d-8bb2-2d122e69329d" name="Default Changelist" comment="changes prior to anandu branch" />
       <created>1596396968866</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -243,10 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609700866684" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1609708289993">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1610435145374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609708289993" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610435145374" />
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1609711911561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -255,30 +279,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="759" y="399" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609713323443" />
-    <state width="1402" height="254" key="GridCell.Tab.0.bottom" timestamp="1609712599837">
+    <state width="999" height="239" key="GridCell.Tab.0.bottom" timestamp="1610906703035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1402" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609712599837" />
-    <state width="1402" height="254" key="GridCell.Tab.0.center" timestamp="1609712599837">
+    <state width="999" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610906703035" />
+    <state width="999" height="239" key="GridCell.Tab.0.center" timestamp="1610906703034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1402" height="254" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609712599837" />
-    <state width="1402" height="254" key="GridCell.Tab.0.left" timestamp="1609712599837">
+    <state width="999" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610906703034" />
+    <state width="999" height="239" key="GridCell.Tab.0.left" timestamp="1610906703034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1402" height="254" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609712599837" />
-    <state width="1402" height="254" key="GridCell.Tab.0.right" timestamp="1609712599837">
+    <state width="999" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610906703034" />
+    <state width="999" height="239" key="GridCell.Tab.0.right" timestamp="1610906703035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1402" height="254" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609712599837" />
+    <state width="999" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610906703035" />
     <state x="880" y="188" key="SettingsEditor" timestamp="1609708291205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="880" y="188" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609708291205" />
-    <state x="417" y="263" key="Vcs.Push.Dialog.v2" timestamp="1609713352107">
+    <state x="417" y="263" key="Vcs.Push.Dialog.v2" timestamp="1609713855833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="417" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609713352107" />
+    <state x="417" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609713855833" />
     <state x="521" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609696090132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
