@@ -53,6 +53,8 @@ JFrame f=new JFrame();
 			//Class.forName("com.mysql.jdbc.Driver");
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","devmodeon");
 			Statement stmt=con.createStatement();
+			String q2="Delete from `login`;";
+			stmt.executeUpdate(q2);
 String q0="INSERT INTO login(name,password) VALUES ('"+s1+"','"+s2+"');";
 
 
