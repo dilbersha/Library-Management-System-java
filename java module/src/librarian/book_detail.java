@@ -19,7 +19,7 @@ public class book_detail {
         JLabel l3 = new JLabel("Author:");
         l3.setBounds(20, 130, 80, 30);
         JButton b = new JButton("Add Book");
-        b.setBounds(100, 195, 80, 30);
+        b.setBounds(100, 195, 90, 30);
         final JTextField bname_f = new JTextField();
         bname_f.setBounds(100, 20, 100, 30);
         final JTextField category_f = new JTextField();

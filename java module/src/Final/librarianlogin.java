@@ -63,7 +63,7 @@ public class librarianlogin {
                 }
 
 
-
+log.dispose();
             }
         });
     }

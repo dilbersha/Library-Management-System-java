@@ -61,13 +61,13 @@ new addstu();
         b6.addActionListener((new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+new book_detail();
             }
         }));
         b7.addActionListener((new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+new retbook();
             }
         }));
 

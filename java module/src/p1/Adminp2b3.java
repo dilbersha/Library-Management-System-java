@@ -5,7 +5,7 @@ import java.sql.*;
 class Adminp2b3 extends JFrame implements ActionListener
 {
 
-JTextField tf1,tf2,tf3,tf4;
+JTextField tf1,tf2,tf3;
 	Adminp2b3()
 	{
 		
